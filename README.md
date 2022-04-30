@@ -1,4 +1,4 @@
-# LAB - 01
+# LAB - 03
 
 ## Horned Beast
 
@@ -10,14 +10,16 @@ This is a webpage built using React to render images of horned beasts and their 
 
 - [ReactJS Dev Docs](https://reactjs.org/docs/getting-started.html)
 
+- [React Bootstrap Docs](https://react-bootstrap.github.io/)
+
 #### Reflections and Comments
 
-Number and name of feature: Lab 02 - Horned Beast
+Number and name of feature: Lab 03 - Horned Beast
 
 Estimate of time needed to complete: 3 hours
 
-Start time: 7:30pm
+Start time: 2:00pm
 
-Finish time: 9:30pm
+Finish time: 4:45pm
 
-Actual time needed to complete: 2 hours-ish
+Actual time needed to complete: 2 hours and 45 minutes

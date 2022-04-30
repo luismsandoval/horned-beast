@@ -7,15 +7,16 @@ import Main from './Main';
 import Footer from './Footer';
 import imageUrls from './data.json';
 
+
 class App extends React.Component {
   render() {
-  return(
-    <Container>
-      <Header />
-      <Main imageUrls={imageUrls}/>
-      <Footer />
-    </Container>
-  );
+    return (
+      <Container>
+        <Header />
+        <Main imageUrls={imageUrls}/>
+        <Footer />
+      </Container>
+    );
   }
 }
 
