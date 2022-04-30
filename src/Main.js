@@ -1,25 +1,23 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import HornedBeast from './HornedBeast';
 
 class Main extends React.Component {
   render() {
-
     const beastImages = this.props.imageUrls;
 
     return (
       <>
         <Container fluid>
           <Row>
-
             {beastImages.map((beast =>
               <Col>
-                <HornedBeast title={beast.title} description={beast.description} src={beast.image_url} />
+                <HornedBeast title={beast.title} description={beast.description} src={beast.image_url} key={beast._id}/>
               </Col>
             ))}
-
           </Row>
-
         </Container>
       </>
     )
