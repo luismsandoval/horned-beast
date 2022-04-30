@@ -17,14 +17,14 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <>
-        <Card bg={'light'} border={'primary'}className="text-center mb-2">
+        <Card bg={'light'} border={'primary'} className="text-center mb-2">
           <Card.Img variant="top" src={this.props.src} />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
               {this.props.description}
             </Card.Text>
-            <Button variant="primary" style={{width: '15rem' }} onClick={this.handleClick}>💗{this.state.votes}</Button>
+            <Button variant="primary" style={{ width: '15rem' }} onClick={this.handleClick}>💗{this.state.votes}</Button>
           </Card.Body>
         </Card>
       </>
