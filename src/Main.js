@@ -14,13 +14,17 @@ class Main extends React.Component {
           <Row>
             {beastImages.map((beast =>
               <Col>
-                <HornedBeast key={beast._id} title={beast.title} description={beast.description} src={beast.image_url}/>
+                <HornedBeast key={beast._id} 
+                title={beast.title} 
+                description={beast.description} 
+                src={beast.image_url}
+                handleShowModal={this.props.handleShowModal}/>
               </Col>
             ))}
           </Row>
         </Container>
       </>
-    )
+    );
   }
 }
 
