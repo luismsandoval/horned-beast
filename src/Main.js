@@ -14,7 +14,7 @@ class Main extends React.Component {
           <Row>
             {beastImages.map((beast =>
               <Col>
-                <HornedBeast title={beast.title} description={beast.description} src={beast.image_url} key={beast._id}/>
+                <HornedBeast key={beast._id} title={beast.title} description={beast.description} src={beast.image_url}/>
               </Col>
             ))}
           </Row>
