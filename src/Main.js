@@ -6,7 +6,7 @@ import HornedBeast from './HornedBeast';
 
 class Main extends React.Component {
   render() {
-    const beastImages = this.props.imageUrls;
+    const beastImages = this.props.beasts;
 
     return (
       <>
