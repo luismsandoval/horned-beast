@@ -2,7 +2,7 @@
 
 ## Horned Beast
 
-This is a webpage built using React to render images of horned beasts and their descriptions.
+This is a webpage built using React to render images and descriptions of horned beasts. Users are able to use a form to filter the horned beasts by number of horns. Users are also able to like the beasts, and see how many likes each beast has.
 
 ### Author: Luis Sandoval | Derek Douglass
 
@@ -14,12 +14,12 @@ This is a webpage built using React to render images of horned beasts and their 
 
 #### Reflections and Comments
 
-Number and name of feature: Lab 03 - Horned Beast
+Number and name of feature: Lab 04 - Horned Beast
 
-Estimate of time needed to complete: 3 hours
+Estimate of time needed to complete: 2 hours
 
-Start time: 2:00pm
+Start time: 6:50pm
 
-Finish time: 4:45pm
+Finish time: 8:15pm
 
-Actual time needed to complete: 2 hours and 45 minutes
+Actual time needed to complete: 1 hour and 25 minutes
